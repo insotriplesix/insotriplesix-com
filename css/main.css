@@ -1,0 +1,69 @@
+.aboutme {
+	text-align: justify;
+}
+
+.aboutme i {
+	font-size: 20px;
+}
+
+.aboutme p {
+	font-family: consolas;
+	font-size: 18px;
+}
+
+.audioplayer {
+	text-align: right;
+}
+
+body {
+	background-color: #f5b7b1;
+}
+
+.contacts {
+	text-align: center;
+}
+
+.contacts i {
+	color: black;
+	font-size: 32px;
+	margin-top: 50px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.contacts i:hover {
+	color: #ec7063;
+}
+
+.container {
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: consolas;
+	font-size: 32px;
+	text-align: center;
+}
+
+.picture {
+	text-align: center;
+}
+
+table {
+	font-family: consolas;
+	font-size: 28px;
+	margin: 0 auto;
+}
+
+td {
+	text-align: center;
+}
+
+th {
+	border: 1px solid black;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
