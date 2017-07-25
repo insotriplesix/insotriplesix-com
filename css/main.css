@@ -8,6 +8,10 @@ a:hover {
 	color: #ffd700;
 }
 
+a.unavailable {
+	color: #ccc;
+}
+
 body {
 #	border: 2px solid green;
 	background-color: black;
@@ -168,6 +172,11 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	text-align: justify;
+}
+
+span.arrow {
+	background-color: black;
+	color: #dc143c; 
 }
 
 table {
