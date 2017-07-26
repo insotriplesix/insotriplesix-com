@@ -179,6 +179,10 @@ span.arrow {
 	color: #dc143c; 
 }
 
+span.ass {
+	color: #eea;
+}
+
 table {
 	font-family: consolas;
 	font-size: 22px;
