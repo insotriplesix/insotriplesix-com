@@ -3,34 +3,83 @@
 <html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 		<meta name="author" content="5aboteur">
-		<meta name="description" content="Personal page">
+		<meta name="description" content="Personal website of 5aboteur">
+		<meta name="keywords" content="saboteur, 5aboteur">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Welcome! </title>
-		<link rel="icon" href="icons/tab_icon.ico">
-		<link href="css/main.css" rel="stylesheet">
+		<title> ~/ </title>
+		<link rel="icon" href="icons/favicon.ico">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 	</head>	
 	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo"> SaBo1eUR </h1>
+				<a class="nav_button" href="pages/bio.html">
+					<i class="fa fa-user" aria-hidden="true"></i>
+				</a>
+				<a class="nav_button" href="pages/links.html">
+					<i class="fa fa-external-link" aria-hidden="true"></i>
+				</a>
+				<a class="nav_button" href="pages/programming.html">
+					<i class="fa fa-code" aria-hidden="true"></i>
+				</a>
+				<a class="nav_button" href="index.html">
+					<i class="fa fa-home" aria-hidden="true"></i>
+				</a>
+			</div>
+		</header>
 		<div class="container">
-			<p>
-				57 65 6c 63 6f 6d 65 20 74 6f 20 6d 79 20 70 65 72 73 6f 6e 61 6c
-				20 70 61 67 65 2c 20 73 74 72 61 6e 67 65 72 21 20 48 65 72 65 20
-				79 6f 75 20 63 61 6e 20 66 69 6e 64 20 73 6f 6d 65 20 69 6e 66 6f
-				72 6d 61 74 69 6f 6e 20 61 62 6f 75 74 20 6d 65 2e 20 4a 75 73 74
-				20 63 6c 69 63 6b 20 74 68 61 74 20 73 69 67 6e 20 62 65 6c 6f 77
-				20 61 6e 64 20 79 6f 75 27 6c 6c 20 67 65 74 20 69 6e 2e . . . . .
-			</p>
-			<hr>
-			<a href="pages/fork.html">
-				<img class="mainpic" src="images/main.gif" alt="0x57656c636f6d65">
-			</a>
-			<hr>
-			<p>
-				. . . . . 41 6e 64 20 79 65 61 68 2e 2e 20 54 68 65 72 65 20 73 6f
-				6d 65 20 73 74 72 61 6e 67 65 20 74 68 69 6e 67 73 20 6f 6e 20 74
-				68 65 20 73 69 74 65 20 74 68 61 74 20 49 20 63 61 6e 27 74 20 65
-				78 70 6c 61 69 6e 2e 20 42 65 20 63 61 72 65 66 75 6c 2e . . . . . 
-			</p>
+			<section>
+				<ul class="fav_list">
+					<li>
+						<a class="unavailable"> RaTTY </a>
+						<i class="fa fa-check" aria-hidden="true"></i> in developing</li>
+						<p>
+							Full-featured remote administration tool written in C. Be sure it`s coming soon..
+						</p>
+					</li>
+					<li>
+						<a class="available" href="pages/yafm.html"> YAFM </a>
+						<i class="fa fa-wrench" aria-hidden="true"></i> refucktoring</li>
+						<p>
+							Simple file manager based on ncurses library. Uses YATE to edit files.
+						</p>
+					</li>
+					<li>
+						<a class="available" href="pages/yate.html"> YATE </a> v1.3f
+						<p>
+							Simple text editor based on ncurses library. It has some fun features like live
+							xor encryption, <strike>built-in hexadecimal editor</strike>, error output and
+							theme changing during the runtime.
+						</p>
+					</li>
+					<li>
+						<a class="available" href="pages/mpi-qtracker.html"> MPI QTracker </a>
+						<i class="fa fa-wrench" aria-hidden="true"></i> refucktoring</li>
+						<p>
+							The lightweight MPI tool that displays some of MPI parameters such as unexpected
+							and posted message queues length, queue message search time etc. It is based on
+							MPI Tools Interface (MPI_T) and primarily intended for profiling point-to-point
+							communications in your program.
+							<br><br>
+							Note : <i>this was my Master`s thesis project</i>.
+						</p>
+					</li>
+					<li>
+						<a class="available" href="pages/path-tracer.html"> GPU Based Path Tracer on OpenCL </a>
+						<i class="fa fa-times" aria-hidden="true"></i> abandoned</li>
+						<p>
+							The implementation of path tracing algorithm for physically correct rendering of
+							3D-scenes. All visual computations are offload on GPU via OpenCL framework.
+							<br><br>
+							Note : <i>this was my Bachelor`s thesis project</i>.
+						</p>
+					</li>
+				</ul>
+			</section>
 		</div>
 	</body>
 <!html>
