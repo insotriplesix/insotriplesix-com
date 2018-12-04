@@ -37,22 +37,23 @@
 				<h2> Overview </h2>
 				<p>
 					Path tracing is an algorithm for rendering images in 3D-scenes where the global
-					illumination is faithful to reality. This algorithm is based on ray tracing method
-					but includes additional techniques that gives a far more accurate simulation of
+					illumination is close to reality. This algorithm is based on a ray tracing method
+					but includes additional techniques that give a far more accurate simulation of
 					lightning. Path tracing naturally simulates many physical effects such as shadows,
 					motion blur, caustics, ambient occlusion etc.
 					<br><br>
-					More about algorithm <a class="available"
+					More about this algorithm can be found <a class="available"
 					href="https://en.wikipedia.org/wiki/Path_tracing">here</a>.
 				</p>
 				<h2> Sampling </h2>
 				<p>
-					Although path tracing is physically correct method of image rendering, modern hardware
-					still has some of limitations that don`t allow to use all the advantages of the
-					algorthm. For example, if we draw an analogy beside rod cells in human eyes with
-					digital matrix of then our eye has several millons of pixels that much more than number
-					of pixels in monitors. That`s the reason why we can`t get fully antialliased image
-					on the screen. This is where sampling is come up.
+					Although path tracing is a physically correct method of image rendering, modern
+					hardware still has some of limitations that don`t allow to use all the advantages of
+					the algorthm. For example, if we draw an analogy between rod cells in human eyes and
+					modern monitors then we`ll come to the fact that our eye has about a hundred millons
+					pixels which is much larger number than number of pixels in digital device. That`s the
+					reason why we can`t get fully antialiased image on the screen. This is where sampling
+					comes up.
 					<br><br>
 					This technique characterized with SPP (Samples Per Pixel) parameter and its formula
 					pretty straightforward:
@@ -66,13 +67,13 @@
 					Path tracing related to
 					<a class="available" href="https://en.wikipedia.org/wiki/Embarrassingly_parallel">
 					embarrassingly parallel</a> algorithms, so it is obvious to make
-					all the computations in GPU. In this program I used cross-platform technology called
+					all the computations in GPU. In this program I used a cross-platform technology called
 					OpenCL. Here is some examples of running the program on different devices with different
 					SPP values.
 				</p>
 				<table>
 					<tr>
-						<th>Manufacter</th>
+						<th>Manufacturer</th>
 						<th>Type</th>
 						<th>Device</th>
 						<th>SPP</th>
@@ -104,7 +105,7 @@
 				<br><br>
 				<table>
 					<tr>
-						<th>Manufacter</th>
+						<th>Manufacturer</th>
 						<th>Type</th>
 						<th>Device</th>
 						<th>SPP</th>
@@ -136,7 +137,7 @@
 				<br><br>
 				<table>
 					<tr>
-						<th>Manufacter</th>
+						<th>Manufacturer</th>
 						<th>Type</th>
 						<th>Device</th>
 						<th>SPP</th>
@@ -167,7 +168,7 @@
 				<img src="../images/path-tracer/1k_spp.png" alt="1kspp" width="716" height="240" />
 				<br>
 				<p>
-					The last image was produced with 10k samples per pixel and as you can see it looks
+					The last image was produced with 10k samples per pixel and, as you can see it looks
 					kinda realistic, but it still takes alot of time for processing images like that even
 					on modern GPUs.
 				</p>
