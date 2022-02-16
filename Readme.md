@@ -1,2 +1,2 @@
 # insotriplesix.com
-My personal page
+My personal web page

@@ -1,91 +1,51 @@
 <!DOCTYPE html>
-
-<html lang="en-US">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-		<meta name="author" content="5aboteur">
-		<meta name="description" content="Personal website of 5aboteur">
-		<meta name="keywords" content="saboteur, 5aboteur">
+		<meta name="author" content="insotriplesix">
+		<meta name="description" content="Personal website of insotriplesix">
+		<meta name="keywords" content="insotriplesix, inso666">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> ~/ </title>
-		<link rel="icon" href="icons/favicon.ico">
+		<link rel="icon" href="images/north-star.png">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;600&display=swap" rel="stylesheet">
 	</head>	
-	<body>
-		<header>
-			<div class="container">
-				<h1 class="logo"> SaBo1eUR </h1>
-				<a class="nav_button" href="pages/bio.html">
-					<i class="fa fa-user" aria-hidden="true"></i>
-				</a>
-				<a class="nav_button" href="pages/links.html">
-					<i class="fa fa-external-link" aria-hidden="true"></i>
-				</a>
-				<a class="nav_button" href="pages/programming.html">
-					<i class="fa fa-code" aria-hidden="true"></i>
-				</a>
-				<a class="nav_button" href="index.html">
-					<i class="fa fa-home" aria-hidden="true"></i>
-				</a>
+	<body id="main_body">
+		<div class="main_block">
+			<div class="block_item">
+				<picture>
+					<source media="(min-width: 540px)" srcset="images/me540.jpg">
+					<source media="(min-width: 400px)" srcset="images/me400.jpg">
+					<source media="(min-width: 256px)" srcset="images/me256.jpg">
+					<img id="main_img" src="images/me256.jpg" alt="Here should be my face with fake pink hair">
+				</picture>
 			</div>
-		</header>
-		<div class="container">
-			<section>
-				<ul class="fav_list">
-					<li>
-						<a class="available" href="pages/tufilter.html"> TUFilter </a> v1.0b
-						<p>
-							Basic Linux kernel module that drops TCP & UDP packets captured via netfilter
-							hooks.
-						</p>
-					</li>
-					<li>
-						<a class="unavailable"> RaTTY </a>
-						<i class="fa fa-check" aria-hidden="true"></i> in developing
-						<p>
-							Full-featured remote administration tool written in C. Be sure it`s coming soon..
-						</p>
-					</li>
-					<li>
-						<a class="available" href="pages/yafm.html"> YAFM </a> v1.1f
-						<p>
-							Simple file manager based on ncurses library. Uses YATE to edit files.
-						</p>
-					</li>
-					<li>
-						<a class="available" href="pages/yate.html"> YATE </a> v1.3f
-						<p>
-							Simple text editor based on ncurses library. It has some fun features like live
-							xor encryption, <strike>built-in hexadecimal editor</strike>, error output and
-							theme changing during the runtime.
-						</p>
-					</li>
-					<li>
-						<a class="available" href="pages/mpi-qtracker.html"> MPI QTracker </a>
-						<i class="fa fa-wrench" aria-hidden="true"></i> refucktoring
-						<p>
-							The lightweight MPI tool that displays some of MPI parameters such as unexpected
-							and posted message queues length, queue message search time etc. It is based on
-							MPI Tools Interface (MPI_T) and primarily intended for profiling point-to-point
-							communications in your program.
-							<br><br>
-							Note : <i>this was my Master`s thesis project</i>.
-						</p>
-					</li>
-					<li>
-						<a class="available" href="pages/path-tracer.html"> GPU Based Path Tracer </a>
-						<i class="fa fa-times" aria-hidden="true"></i> abandoned</li>
-						<p>
-							The implementation of path tracing algorithm for physically correct rendering of
-							3D-scenes. All visual computations are offload on GPU via OpenCL framework.
-							<br><br>
-							Note : <i>this was my Bachelor`s thesis project</i>.
-						</p>
-					</li>
-				</ul>
-			</section>
+			<div class="block_item">
+				<div class="description">
+					<h1>Hello, world! \0</h1>
+					<p class="description">
+						I'm a software engineer with 4 years of industry experience. Started from low-level programming
+						languages like C and C++, now I dive into back-end web development in Kotlin. Since then my
+						responsibilities were related to different subjects from troubleshooting, code refactoring and
+						code review to designing new product features and performance optimizations. Check my
+						<a href="pages/resume.html">résumé</a> for more details.
+						<br><br>
+						I also have passion to ancient history, fashion, electronic & hip-hop music, snowboarding and
+						video games. I believe that being this many-sided person is a key to rapid growth and development.
+						<br><br>
+						Contact me by
+						<a href="mailto:rtereshkov@gmail.com">eMail</a>,
+						<a href="https://t.me/inso666">Telegram</a>
+						or
+						<a href="https://linkedin.com/insotriplesix">Linkedin</a>.
+					</p>
+				</div>
+			</div>
 		</div>
 	</body>
 <!html>
